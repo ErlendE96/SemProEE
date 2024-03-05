@@ -1,0 +1,133 @@
+.product-actions button, .product-list button{
+    width:100%;
+    background-color: #333;
+  }
+  
+  .product-list button{
+    margin-bottom:0.2rem;
+  }
+  
+  .product-actions button:hover, .product-list button:hover{
+  
+    background-color: grey;
+  }
+
+  .product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .product-info-view {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 65%;
+
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    width: 18.75rem;
+    height: auto;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: white;
+    padding:1rem;
+    
+  }
+
+  .product-card-view {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    width: 60%;
+    height: auto;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: white;
+    padding:1rem;
+  }
+
+  
+  .product-details {
+    flex: 1;
+
+  }
+
+  .textalign{
+    text-align: left;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .product-image {
+    margin-top:1rem;
+    flex: 1;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .product-image img {
+    height: 9.375rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+
+
+  }
+
+
+
+  .metadata {
+    display: flex;
+    align-items: center;
+
+
+
+  }
+
+  .icon img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 2px solid transparent;
+    
+  }
+  
+
+  
+
+.icon img.disabled {
+  border: 2px solid red; 
+  filter: grayscale(100%);
+
+}
+
+  
+  .product-actions {
+    margin-top: auto;
+  }
+
+  .product-image-view img{
+    width:100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .product-image-view h2{
+    text-align: left;
+    padding-top: 0;
+    margin-top:0;
+  }

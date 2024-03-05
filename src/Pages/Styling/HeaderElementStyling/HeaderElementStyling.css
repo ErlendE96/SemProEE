@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navheaderh2{
+    color:white;
+    font-size: 1rem;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+
+    
+
+  }
+  a {
+    text-decoration: none;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cart-icon {
+    position: relative;
+    cursor: pointer;
+  
+  }
+  
+  .shoppingcartimg {
+    max-height: 3rem;
+  }
+  
+  .item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .search-bar input{
+    height:2rem;
+    width:20%;
+    min-width: 15rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links li :hover {
+    color:grey;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    
+  }
+
+  

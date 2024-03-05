@@ -1,0 +1,127 @@
+.checkout-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .checkout-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .checkout-page li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-page img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+  }
+  
+  .checkout-page button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    
+  }
+  
+  .checkout-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .checkout-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-page a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .checkout-page a:hover {
+    text-decoration: underline;
+  }
+  
+  .checkout-page .remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .checkout-page .remove-button:hover {
+    background-color: #c82333;
+  }
+
+  .checkout-page {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    width: 18.75rem;
+    height: auto;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding:1rem;
+  }
+  
+  .item-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .item-info {
+    text-align: left;
+  }
+  
+  .item-title {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .total-cost {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .back-to-home-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .back-to-home-link:hover {
+    text-decoration: underline;
+  }
