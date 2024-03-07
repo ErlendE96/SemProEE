@@ -1,4 +1,4 @@
-#Holidaze website
+# Holidaze website
 <img width="1425" alt="sc-pe" src="https://github.com/ErlendE96/SemProEE/assets/96021420/0b03b64c-2534-42bf-be42-8f8e9592e04a">
 
 ## Description
