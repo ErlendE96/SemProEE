@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+#Holidaze website
+<img width="1425" alt="sc-pe" src="https://github.com/ErlendE96/SemProEE/assets/96021420/0b03b64c-2534-42bf-be42-8f8e9592e04a">
+
+## Description
+Holidaze is a website where users are able to view and book various venues. The venue cards shows max. number of guests, price and what services they offer. Users are able to register and login, and venue managers are able to register and login aswell. Venue managers manage the venue listings.
+
+## Built With
+React.js
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
